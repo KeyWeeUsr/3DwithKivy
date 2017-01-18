@@ -413,8 +413,6 @@ class My3D(App):
         self.cubes[3].rotation.x = 45
         self.cubes[3].material.color = (0.1, 0.4, 0.1)
         self.cubes[3].material.texture_ratio = 0.0
-        # if there's no texture, remove .mtl file
-        # to be able to edit it in python
 
         # cube object from Blender
         loader = OBJLoader()
